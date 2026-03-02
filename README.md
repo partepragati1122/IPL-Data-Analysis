@@ -113,6 +113,7 @@ Create interactive dashboard
 👩‍💻 Author
 
 Pragati Santosh Parte
+
 Aspiring Data Analyst | Python | Power BI | Machine Learning
 
 ⭐ If you like this project, consider giving it a star!
