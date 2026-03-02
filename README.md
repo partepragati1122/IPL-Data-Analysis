@@ -8,6 +8,7 @@ This project performs an advanced exploratory data analysis (EDA) and machine le
 The goal of this project is to analyze player performance, match trends, scoring patterns, and build a machine learning model to predict match winners.
 
 
+
 📂 Dataset
 
 The dataset consists of two CSV files:
@@ -15,6 +16,7 @@ The dataset consists of two CSV files:
 IPL_Matches_2008_2022
 
 IPL_Ball-by-Ball_2008_2022 
+
 
 
 🛠 Tools & Technologies Used
@@ -32,6 +34,7 @@ Seaborn
 Scikit-learn
 
 
+
 🧹 Data Cleaning
 
 Removed duplicates
@@ -43,6 +46,7 @@ Converted date columns
 Merged match-level and ball-level datasets
 
 Encoded categorical variables for ML
+
 
 
 📊 Exploratory Data Analysis (EDA)
@@ -58,6 +62,7 @@ Batting Average & Consistency Analysis
 Bowling Economy Rate
 
 
+
 📈 Match Trends
 
 Year-wise Total Runs Trend
@@ -67,6 +72,7 @@ Toss Impact on Match Result
 Powerplay vs Death Over Comparison
 
 
+
 ⚡ Advanced Metrics
 
 Player Consistency (Standard Deviation of runs per match)
@@ -74,6 +80,7 @@ Player Consistency (Standard Deviation of runs per match)
 Strike Rate Calculation
 
 Phase-wise scoring analysis
+
 
 
 🤖 Machine Learning Model
@@ -107,6 +114,7 @@ y_pred = model.predict(X_test)
 print("Model Accuracy:", accuracy_score(y_test, y_pred))
 
 
+
 📊 Dashboard Visualization
 
 Created a dashboard-style layout using Matplotlib & Seaborn including:
@@ -122,6 +130,7 @@ Toss Impact Pie Chart
 Powerplay vs Death Over Bar Chart
 
 
+
 📌 Key Insights
 
 Death overs contribute significantly to total match runs.
@@ -131,6 +140,7 @@ Scoring trends have increased over seasons.
 Toss has influence but does not guarantee victory.
 
 Consistency plays a major role in player performance.
+
 
 
 🚀 How to Run This Project
@@ -144,6 +154,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 Run the Jupyter Notebook 
 
 
+
 📈 Future Improvements
 
 Add more match features (venue, toss decision, etc.)
@@ -153,6 +164,7 @@ Improve ML model accuracy
 Deploy as Streamlit Web App
 
 Create interactive dashboard
+
 
 
 👩‍💻 Author
